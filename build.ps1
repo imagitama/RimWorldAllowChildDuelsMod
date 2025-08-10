@@ -22,8 +22,8 @@ echo "Copying..."
 
 cp "Source\bin\Debug\net472\$modName.dll" "Assemblies"
 
-cp -r -Force "About" "$outputPath\About"
-cp -r -Force "Assemblies" "$outputPath\Assemblies"
+cp -r -Force "About" "$outputPath"
+cp -r -Force "Assemblies" "$outputPath"
 cp "README.md" "$outputPath"
 cp "LICENSE.md" "$outputPath"
 
